@@ -1,0 +1,13 @@
+### 로그인 (2)
+POST {{apiUrl}}/login
+Content-Type: application/json;charset=UTF-8
+
+{
+  "userName": "giron1",
+  "password": "ao!2!A@czD"
+}
+
+> {%
+client.global.set("authorizationToken", "Bearer " + response.body.accessToken);
+client.log("Auth Token : " + client.global.get("authorizationToken"));
+%}

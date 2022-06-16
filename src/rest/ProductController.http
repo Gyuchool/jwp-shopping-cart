@@ -1,0 +1,9 @@
+### 상품 추가
+POST http://localhost:8080/api/products
+Content-Type: application/json;charset=UTF-8
+
+{
+    "name": "숟가락(비닐)-맛있는 봄이 배달왔어요2",
+    "price": 200010,
+    "imageUrl": "https://cdn-mart.baemin.com/sellergoods/main/8f21935e-4200-4621-8375-239cc816a9f4.jpg"
+}

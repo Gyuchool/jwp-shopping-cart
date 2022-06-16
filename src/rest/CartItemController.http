@@ -1,0 +1,8 @@
+### 장바구니 담기
+POST http://localhost:8080/api/customers/me/carts
+Content-Type: application/json;charset=UTF-8
+Authorization: {{authorizationToken}}
+
+{
+  "id": 1
+}

@@ -1,0 +1,9 @@
+### 회원가입 1
+
+POST {{apiUrl}}/customers
+Content-Type: application/json;charset=UTF-8
+
+{
+  "userName": "giron1",
+  "password": "ao!2!A@czD"
+}
